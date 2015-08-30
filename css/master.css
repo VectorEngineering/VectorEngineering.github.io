@@ -16,7 +16,7 @@ body {
   position: absolute;
   padding: 42px;
   bottom: auto;
-  font-size: 3em;
+  font-size: 4em;
   color: #FFFFFF;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .how_to_text {
-  font-size: 2.4em;
+  font-size: 3.4em;
   color: #576571;
   font-weight: lighter;
 }
