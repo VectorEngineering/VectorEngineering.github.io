@@ -92,11 +92,11 @@ and (max-device-width : 667px) {
     text-align: center;
     font-weight: lighter;
     padding: 0 50px 0 50px;
-    font-size: 2em;
+    font-size: 3.4em;
     color: #576571;
   }
   .how_to_text {
-    font-size: 1.4em;
+    font-size: 2.4em;
     color: #576571;
     font-weight: lighter;
   }
