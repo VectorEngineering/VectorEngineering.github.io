@@ -5,8 +5,8 @@ body {
 
 .logo {
   position: relative;
-  width: 140px;
-  height: 140px;
+  width: 106px;
+  height: 106px;
   background: #7481CF;
   font-weight: lighter;
   margin: 80px auto 0 auto;
@@ -14,9 +14,8 @@ body {
 
 .logo_text {
   position: absolute;
-  padding: 42px;
-  bottom: auto;
-  font-size: 4em;
+  padding: 30px;
+  font-size: 3em;
   color: #FFFFFF;
 }
 
@@ -27,11 +26,65 @@ body {
   text-align: center;
   font-weight: lighter;
   padding: 0 50px 0 50px;
-  font-size: 3em;
+  font-size: 1.8em;
   color: #576571;
 }
 
-@media screen and (min-width: 600px) {
+.steps_container {
+  margin: 0 0 100px 0;
+  padding: 0 150px 0 150px;
+}
+
+.steps {
+  text-align: center;
+}
+
+.how_to_text {
+  font-size: 1.4em;
+  color: #576571;
+  font-weight: lighter;
+}
+
+.how_to_icons {
+  margin-top: 100px;
+  height: 70px;
+  width: 70px;
+}
+
+.button {
+  margin: 0 auto 120px auto;
+  position: relative;
+  height: 60px;
+  width: 180px;
+  background: #7481CF;
+}
+.button_text {
+  position:absolute;
+  font-weight: lighter;
+  padding: 16px 45px 16px 45px;
+  font-size: 1.4em;
+  color: #FFFFFF;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 667px) {
+  .logo {
+    position: relative;
+    width: 156px;
+    height: 156px;
+    background: #7481CF;
+    font-weight: lighter;
+    margin: 80px auto 0 auto;
+  }
+
+  .logo_text {
+    position: absolute;
+    padding: 42px;
+    bottom: auto;
+    font-size: 4em;
+    color: #FFFFFF;
+  }
   .header_phrase {
     font-family: proxima-nova, sans-serif;
     src: url("fonts/ProximaNova-Light.otf");
@@ -42,75 +95,28 @@ body {
     font-size: 2em;
     color: #576571;
   }
-}
-
-.steps_container {
-  margin: 0 0 200px 0;
-  padding: 0 150px 0 150px;
-}
-
-.steps {
-  text-align: center;
-}
-
-.how_to_text {
-  font-size: 3.4em;
-  color: #576571;
-  font-weight: lighter;
-}
-
-@media screen and (min-width: 600px) {
   .how_to_text {
     font-size: 1.4em;
     color: #576571;
     font-weight: lighter;
   }
-}
-
-.how_to_icons {
-  margin-top: 100px;
-  height: 100px;
-  width: 100px;
-}
-
-@media screen and (min-width: 600px) {
   .how_to_icons {
     margin-top: 100px;
-    height: 70px;
-    width: 70px;
+    height: 120px;
+    width: 120px;
   }
-}
-
-.button {
-  margin: 0 auto 120px auto;
-  position: relative;
-  height: 100px;
-  width: 300px;
-  background: #7481CF;
-}
-
-.button_text {
-  position:absolute;
-  font-weight: lighter;
-  padding: 22px 53px 22px 53px;
-  font-size: 3em;
-  color: #FFFFFF;
-}
-
-@media screen and (min-width: 600px) {
   .button {
     margin: 0 auto 120px auto;
     position: relative;
-    height: 80px;
-    width: 260px;
+    height: 100px;
+    width: 300px;
     background: #7481CF;
   }
-
   .button_text {
     position:absolute;
     font-weight: lighter;
-    padding: 20px 66px 20px 66px;
-    font-size: 2em;
+    padding: 24px 60px 24px 60px;
+    font-size: 2.8em;
     color: #FFFFFF;
   }
 }
