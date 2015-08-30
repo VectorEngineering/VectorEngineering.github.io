@@ -27,7 +27,7 @@ body {
   text-align: center;
   font-weight: lighter;
   padding: 0 50px 0 50px;
-  font-size: 32px;
+  font-size: 2em;
   color: #576571;
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 .how_to_text {
-  font-size: 18px;
+  font-size: 1.2em;
   color: #576571;
   font-weight: lighter;
 }
